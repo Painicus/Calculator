@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(104, 190, 243);
+  min-width: 336px;
+  min-height: 480px;
+}
+h1 {
+  margin: 12px 0;
+  padding:0;
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  margin: 12px 0;
+  padding:0;
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  background-color: rgb(31, 29, 29);
+  padding: 12px;
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  border: 2px solid #212121;
+}
+button {
+  padding: 4px;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+  background-color: rgb(132, 147, 160);
+  border-radius: 8px;
+  border: none;
+  font-family: 'Economica', sans-serif;
+}
+button:hover {
+  background-color: #0277BD;
+  color: #fff;
+}
+#calcScreen {
+  border-radius: 8px 8px;
+  padding: 4px;
+  height: 60px;
+  font-family: 'Economica', sans-serif;
+  margin: 0;
+  margin-bottom: 8px;
+  width: auto;
+  text-align: right;
+  font-size: 50px;
+  background-color: #90A4AE;
+  border: 1px solid #212121;
+  overflow-x: auto;
+  box-shadow: 0 1px 1px 0 #212121;
+}
+.btnGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-column-gap: 8px;
+  grid-row-gap: 8px;
+}
+.clear {
+  background-color: orange;
+}
+.operation {
+  color: black;
+  background-color: cornflowerblue;
+}
+#equal {
+  color: black;
+  background-color: orange;
+}
+#equal:hover {
+  background-color: #c55531;
+  color: #fff;
+}
+#but_7 {
+  grid-row-start: 2;
+  grid-column-start: 1;
+}
+#but_8 {
+  grid-row-start: 2;
+  grid-column-start: 2;
+}
+#but_9 {
+  grid-row-start: 2;
+  grid-column-start: 3;
+}
+#division {
+  grid-row-start: 2;
+  grid-column-start: 4;
+}
+#but_4 {
+  grid-row-start: 3;
+  grid-column-start: 1;
+}
+#but_5 {
+  grid-row-start: 3;
+  grid-column-start: 2;
+}
+#but_6 {
+  grid-row-start: 3;
+  grid-column-start: 3;
+}
+#multiplication {
+  grid-row-start: 3;
+  grid-column-start: 4;
+}
+#but_1 {
+  grid-row-start: 4;
+  grid-column-start: 1;
+}
+#but_2 {
+  grid-row-start: 4;
+  grid-column-start: 2;
+}
+#but_3 {
+  grid-row-start: 4;
+  grid-column-start: 3;
+}
+#subtraction {
+  grid-row-start: 4;
+  grid-column-start: 4;
+}
+#decimal {
+  grid-row-start: 5;
+  grid-column-start: 1;
+}
+#but_0 {
+  grid-row-start: 5;
+  grid-column-start: 2;
+}
+#equal {
+  grid-row-start: 5;
+  grid-column-start: 3;
+}
+#addition {
+  grid-row-start: 5;
+  grid-column-start: 4;
+}
+#clear {
+  grid-row-start: 1;
+  grid-column-start:4;
+}
